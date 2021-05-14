@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Online Registration</title>
+	<center><h1>Online Registration of the International Seminar</h1></center>
+</head>
+<body bgcolor="#4f55d2">
+
+	<form method="POST">
+
+		Participant Type : 
+		<select name="subject">
+        <option disabled="disabled" selected="selected">Choose option</option>
+        <option>Student</option>
+        <option>Faculty</option>
+        <option>Professionals</option>
+        <option>Company/firm</option>
+        </select>
+         <br><br>
+        <label>First Name</label>                
+        <input type="text" name="first_name"><br><br>
+
+		<label>Last Name</label>                                            
+        <input type="text" name="last_name"><br><br>
+                            
+        Company/College <input  type="text" name="company"><br><br>
+        Email   <input  type="email" name="email"><br><br>
+        Area Code   <input  type="text" name="area_code"><br><br>
+                                            
+        <label></label>Phone Number</label>
+        <input type="text" name="phone"><br><br>
+      	
+        Registration Fees :  <input  type="text" name="fees">  
+        <select name="currency">
+        <option disabled="disabled" selected="selected">Choose option</option>
+        <option>Rs.</option>
+        <option>$</option>
+        </select>	
+        <br><br>
+        
+        Payment Mode : 
+		<select name="Payment">
+        <option disabled="disabled" selected="selected">Choose option</option>
+        <option>Credit Card</option>
+        <option>Debit Card</option>
+        <option>Demand Draft</option>
+        </select>
+        <br><br>
+
+
+        <label >Accept all the constraint and all the data entered is correct?
+        </label>
+        <label>Yes                     
+        	<input type="radio" checked="checked" name="exist">
+        </label>
+        <label>No
+            <input type="radio" name="exist">
+        </label><br><br>
+        <button type="submit">Register</button>
+        </form>
+</body>
+</html>

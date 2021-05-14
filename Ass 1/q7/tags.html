@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SELECT | TEXTAREA | 20MCMB15</title>
+</head>
+<body>
+
+
+	<center><!-- keep thing in the center of the screen -->
+		<h2>Select Coding Languages :</h2>
+	<select name="languages" > <!-- This <select> tag is used to create a drop-down list and for mutiple attribute to enable the multiple selection -->
+		<!-- option tag with add element in the drop-down list-->
+		<option value="java">JAVA</option> <br><br> <!-- value attribute is used for getting the value when corresponding option is selected -->
+		<option value="python" selected="true" >PYTHON</option> <br><br><!-- selection attribute set true will select the option by default -->
+		<option value="c">C</option> <br><br>
+		<option value="c++">C++</option> <br><br>
+		<option value="javascript">JAVASCRIPT</option> <br><br>
+		<option value="node.js">NODE.JS</option> <br><br>
+	</select>
+
+	<select id="codelang" name="languages" multiple="true" > <!-- This <select> tag is used to create a drop-down list , id & name attribute to track at other place means name for form data and id for associate with other and for mutiple attribute to enable the multiple selection -->
+		<!-- option tag with add element in the drop-down list-->
+		<option value="java">JAVA</option> <br><br> <!-- value attribute is used for getting the value when corresponding option is selected -->
+		<option value="python" selected="true" >PYTHON</option> <br><br><!-- selection attribute set true will select the option by default -->
+		<option value="c" selected="true">C</option> <br><br>
+		<option value="c++">C++</option> <br><br>
+		<option value="javascript">JAVASCRIPT</option> <br><br>
+		<option value="node.js" selected="true">NODE.JS</option> <br><br>
+	</select>
+
+	<br><br><br>
+	<!-- label is used for user to be more friendly usage-->
+	 <label for="reviewaboutlang">Review on selected coding language</label><br>
+	 <!-- The <textarea> tag defines a multi-line text input control and mostly used in a form, to collect user inputs like comments or reviews.-->
+	 <!-- The size of a text area is specified by the <cols> and <rows> attributes.
+		The name attribute is needed to reference the form data after the form is submitted
+	The id attribute is needed to associate the text area with a label.  -->
+	<textarea id="reviewaboutlang" name="reviewaboutlang" rows="4" cols="50">
+		Write your review here....
+	</textarea> 
+
+	</center>
+
+</body>
+</html>

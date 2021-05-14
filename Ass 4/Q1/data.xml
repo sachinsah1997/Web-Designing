@@ -1,0 +1,81 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<university>
+    <student>
+        <firstName>Sachin</firstName>
+        <lastName>Sah</lastName>
+        <rollNo>20MCMB15</rollNo>
+        <contactNo>7802008521</contactNo>
+        <email>sachinsah@engineer.com</email>
+        <address>
+            <City>Surat</City>
+            <State>Gujarat</State>
+            <Zip>394230</Zip>
+        </address>
+        <department>Information Technology</department>
+    </student>
+    <student>
+        <firstName>Suvam</firstName>
+        <lastName>Basak</lastName>
+        <rollNo>20MCMB08</rollNo>
+        <contactNo>9685745214</contactNo>
+        <email>20MCMB08@uohyd.ac.in</email>
+        <address>
+            <City>Howrah</City>
+            <State>Kolkota</State>
+            <Zip>994230</Zip>
+        </address>
+        <department>Information Technology</department>
+    </student>
+    <student>
+        <firstName>Jitendra</firstName>
+        <lastName>Gangwar</lastName>
+        <rollNo>20MCMB04</rollNo>
+        <contactNo>9666875454</contactNo>
+        <email>20MCMB04@uohyd.ac.in</email>
+        <address>
+            <City>Meerat</City>
+            <State>Uttar Pradesh</State>
+            <Zip>694230</Zip>
+        </address>
+        <department>Information Technology</department>
+    </student>
+    <student>
+        <firstName>Aishwariya</firstName>
+        <lastName>Kulshrestha</lastName>
+        <rollNo>20MCMB12</rollNo>
+        <contactNo>9666874554</contactNo>
+        <email>20MCMB12@uohyd.ac.in</email>
+        <address>
+            <City>Lucknow</City>
+            <State>Uttar Pradesh</State>
+            <Zip>664230</Zip>
+        </address>
+        <department>Information Technology</department>
+    </student>
+    <student>
+        <firstName>Ramya</firstName>
+        <lastName>Bhargavi</lastName>
+        <rollNo>20MCMI04</rollNo>
+        <contactNo>9665575454</contactNo>
+        <email>20MCMI04@uohyd.ac.in</email>
+        <address>
+            <City>Hyderabad</City>
+            <State>Telegana</State>
+            <Zip>594230</Zip>
+        </address>
+        <department>Artificial Intelligence</department>
+    </student>
+    <student>
+        <firstName>Amit</firstName>
+        <lastName>Kumar</lastName>
+        <rollNo>20MCMB14</rollNo>
+        <contactNo>9666445454</contactNo>
+        <email>20MCMB14@uohyd.ac.in</email>
+        <address>
+            <City>Chandni Chowk</City>
+            <State>Delhi</State>
+            <Zip>194230</Zip>
+        </address>
+        <department>Information Technology</department>
+    </student>
+</university>

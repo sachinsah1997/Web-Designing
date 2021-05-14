@@ -1,0 +1,95 @@
+html,body{
+   
+    color: #f7f7f7;
+    background-color: #f7f7f7;
+    line-height: 1.5;
+}
+
+/* setting style for left-side navigation bar */
+#navbar{
+  position:fixed;
+  top:0px;
+  left:0px;
+  width:250px;
+  height:100%;
+  border-right:solid;
+  border-color:black;
+}
+
+header{
+  text-align:center;
+  font-weight: bold;
+  font-size: 1.6em;
+  background-color:#028de3;
+  color: white;
+  padding-left: 15px;
+}
+
+/* setting hover means when we are taking curson on the list it will show black */
+a li:hover {
+    background-color: black!important;
+    color:white!important;
+}
+
+/* styling the header present in the main document page */
+#main-doc header{
+  text-align:left;
+  margin-top: 10px;
+  margin-left:80px;
+}
+
+
+/* for the ul(unordered list) tag item in the left-side navigation */
+#navbar ul{
+  height:88%;
+  overflow-y:auto;
+  overflow-x:hidden;
+}
+
+/* for the li(list item) tag item in the left-side navigation */
+#navbar li{
+  color: #3f4547;
+  padding:8px;
+  list-style: none;
+  position:relative;
+  width:100%; 
+}
+
+/* setting style for main page where all the topic are explained */
+#main-doc{
+  position: absolute;
+  margin-left:150px;
+  margin-top: 10px;
+  padding:20px;
+  margin-bottom:110px;
+}
+
+/* article tag present in the section tag */
+section article{
+  height: 100%;
+  color: #3f4547;
+  margin:15px;
+  font-size:1em;
+  margin-left: 100px;
+}
+
+/* li tag present in the section tag */
+section li {
+  margin:15px 0px 0px 20px;
+}
+
+/* for the code tag */
+code{
+  display:block;
+    text-align: left;
+  white-space: pre;
+  position: relative;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 1;
+    background-color: white;
+  padding:15px;
+  margin:10px;
+    border-radius:5px;
+}
+

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Technical Documentation | 20MCMB15</title>
+</head> 
+<body>
+<link rel="stylesheet" href="main.css">
+<!-- Div tag is block level tag and generic container tag. It is used to the group of various tags so that sections can be created and style can be applied to them. -->
+<!-- i have used bootstrap. container-fluid class provides full width container, spanning the entire width  of the viewport -->
+<div class="container-fluid">
+   <!-- bootstrap used row class is used for making grid layout-->
+    <div class="row">
+        <!-- md stands for small laptop, sm for tablets, xs for phones -->
+        <div class="col-md-10 col-sm-12 col-xs-12 col-xs-12">
+            <nav id="navbar">
+                <header>Android Documentation</header>
+                <ul class="nav nav-pills nav-stacked">
+                    <a class="nav-link" href="#overview" rel="internal">
+                        <li>Overview</li>
+                    </a>
+                    <a class="nav-link" href="#environment" rel="internal">
+                        <li>Android - Environment Setup</li>
+                    </a>
+                    <a class="nav-link" href="#architecture" rel="internal">
+                        <li>Android - Architecture</li>
+                    </a>
+                    <a class="nav-link" href="#components" rel="internal">
+                        <li>Android - Application Components</li>
+                    </a>
+                    <a class="nav-link" href="#helloworld" rel="internal">
+                        <li>Android - Hello World Example</li>
+                    </a>
+                    <a class="nav-link" href="#qna" rel="internal">
+                        <li>Android Questions and Answers</li>
+                    </a>    
+                    <a class="nav-link" href="#Reference" rel="internal">
+                        <li>Reference</li>
+                    </a>
+                </ul>
+
+            </nav>
+        </div>
+
+        <div class="col-md-10 col-sm-12 col-xs-12">
+            <main id="main-doc">
+                <section class="main-section" id="overview">
+                    <header>Overview</header>
+                    <!-- The <article> tag specifies independent, self-contained content. -->
+                    <article>
+                    <center>
+                        <img src="android.jpg">
+                    </center>
+
+                        <p>Android is an open source and Linux-based Operating System for mobile devices such as smartphones and tablet computers. Android was developed by the Open Handset Alliance, led by Google, and other companies.</p>
+
+                        <p>Android offers a unified approach to application development for mobile devices which means developers need only develop for Android, and their applications should be able to run on different devices powered by Android.</p>
+
+                        <p>The first beta version of the Android Software Development Kit (SDK) was released by Google in 2007 where as the first commercial version, Android 1.0, was released in September 2008.</p>
+
+                        <p>On June 27, 2012, at the Google I/O conference, Google announced the next Android version, 4.1 Jelly Bean. Jelly Bean is an incremental update, with the primary aim of improving the user interface, both in terms of functionality and performance.<br>
+
+                        The source code for Android is available under free and open source software licenses. Google publishes most of the code under the Apache License version 2.0 and the rest, Linux kernel changes, under the GNU General Public License version 2.</p><br>
+
+                        
+                        </artice>
+                </section>
+                <section class="main-section" id="environment">
+                    <header>Android - Environment Setup</header>
+                    <article>
+                        <p>You will be glad to know that you can start your Android application development on either of the following operating systems − </p>
+
+                        <li>Microsoft Windows XP or later version.</li>
+                        <li>Mac OS X 10.5.8 or later version with Intel chip.</li>
+                        <li>Linux including GNU C Library 2.7 or later.</li>
+
+                        <p>Second point is that all the required tools to develop Android applications are freely available and can be downloaded from the Web. Following is the list of software's you will need before you start your Android application programming. </p>
+
+                        <li>Java JDK5 or later version</li>
+                        <li>Mac OS X 10.5.8 or later version with Intel chip.</li>
+                        <li>Android Studio </li>
+
+                        <p>Here last two components are optional and if you are working on Windows machine then these components make your life easy while doing Java based application development. So let us have a look how to proceed to set required environment.</p>
+
+                        <p>You can download the latest version of Java JDK from Oracle's Java site − Java SE Downloads. You will find instructions for installing JDK in downloaded files, follow the given instructions to install and configure the setup. Finally set PATH and JAVA_HOME environment variables to refer to the directory that contains java and javac, typically java_install_dir/bin and java_install_dir respectively.<br>
+                        If you are running Windows and installed the JDK in C:\jdk1.8.0_102, you would have to put the following line in your C:\autoexec.bat file.</p>
+
+                        <!-- The <code> tag is used to define a piece of computer code and it will differentiate from  -->
+                        <code>
+                            set PATH=C:\jdk1.8.0_102\bin;%PATH%
+                            set JAVA_HOME=C:\jdk1.8.0_102
+                        </code>
+
+                        </artice>
+                </section>
+                <section class="main-section" id="architecture">
+                    <header>Android - Architecture</header>
+                    <article>
+                        <p>Android operating system is a stack of software components which is roughly divided into five sections and four main layers as shown below in the architecture diagram.</p>
+
+                        <center>
+                            <img src="architecture.jpg">
+                        </center>
+                        <p><h3>Libraries</h3>
+
+                        On top of Linux kernel there is a set of libraries including open-source Web browser engine WebKit, well known library libc, SQLite database which is a useful repository for storage and sharing of application data, libraries to play and record audio and video, SSL libraries responsible for Internet security etc.</p>
+
+                         <p><h3>Linux kernel</h3>
+
+                        At the bottom of the layers is Linux - Linux 3.6 with approximately 115 patches. This provides a level of abstraction between the device hardware and it contains all the essential hardware drivers like camera, keypad, display etc. Also, the kernel handles all the things that Linux is really good at such as networking and a vast array of device drivers, which take the pain out of interfacing to peripheral hardware.</p>
+                    </article>
+                </section>
+                <section class="main-section" id="components">
+                    <header>Android - Application Components</header>
+                    <article>
+                        Application components are the essential building blocks of an Android application. These components are loosely coupled by the application manifest file AndroidManifest.xml that describes each component of the application and how they interact.
+                        
+                        <h3>Activities</h3>
+
+                        An activity represents a single screen with a user interface,in-short Activity performs actions on the screen. For example, an email application might have one activity that shows a list of new emails, another activity to compose an email, and another activity for reading emails. If an application has more than one activity, then one of them should be marked as the activity that is presented when the application is launched.
+                        Select the code in the pad and hit Ctrl+R to watch it unfold in your browser!
+
+                        <p>An activity is implemented as a subclass of Activity class as follows − </p>
+                        <code>
+                            public class MainActivity extends Activity {}
+                        </code>
+
+                        <h3>Services</h3>
+
+                        A service is a component that runs in the background to perform long-running operations. For example, a service might play music in the background while the user is in a different application, or it might fetch data over the network without blocking user interaction with an activity.
+
+                        <p>A service is implemented as a subclass of Service class as follows −</p>
+                        <code>
+                            public class MyService extends Service {}
+                        </code><br>
+                    </article>
+                </section>
+
+                <section class="main-section" id="helloworld">
+                    <header>Android - Hello World Example</header>
+                    <article>
+                    <p>
+                       Let us start actual programming with Android Framework. Before you start writing your first example using Android SDK, you have to make sure that you have set-up your Android development environment properly as explained in Android - Environment Set-up tutorial. I also assume that you have a little bit working knowledge with Android studio.
+                    </p>
+                    <p>So let us proceed to write a simple Android Application which will print "Hello World!".
+                    </p>
+                    <p>
+                        You can use ISO 8859-1 or Unicode letters such as å and ü in identifiers. You can also use the
+                        Unicode
+                        escape sequences as characters in identifiers.
+
+                        Some examples of legal names are Number_hits, temp99, and _name.
+                    </p>
+
+                     <h3>The Main Activity File</h3>
+
+                        The main activity code is a Java file MainActivity.java. This is the actual application file which ultimately gets converted to a Dalvik executable and runs your application. Following is the default code generated by the application wizard for Hello World! application −
+
+                        <code>
+                            package com.example.helloworld;
+
+                                import android.support.v7.app.AppCompatActivity;
+                                import android.os.Bundle;
+
+                            public class MainActivity extends AppCompatActivity {
+                            @Override
+                            protected void onCreate(Bundle savedInstanceState) {
+                              super.onCreate(savedInstanceState);
+                                setContentView(R.layout.activity_main);
+                               }
+                            }
+                        </code><br>
+
+                        <p>Here, R.layout.activity_main refers to the activity_main.xml file located in the res/layout folder. The onCreate() method is one of many methods that are figured when an activity is loaded.</p>
+
+                     </article>
+                </section>
+
+                <section class="main-section" id="qna">
+                    <header>Android Questions and Answers</header>
+                    <article>
+                       <p>
+                        Android Questions and Answers has been designed with a special intention of helping students and professionals preparing for various Certification Exams and Job Interviews. This section provides a useful collection of sample Interview Questions and Multiple Choice Questions (MCQs) and their answers with appropriate explanations.
+                        </p>
+                        <ol>
+                            <li>
+                                <h3>Android Interview Questions</h3>
+                                <p>
+                                   This section provides a huge collection of Android Interview Questions with their answers hidden in a box to challenge you to have a go at them before discovering the correct answer.
+                                </p>
+                            <li>
+                                <h3>Android Online Quiz</h3>
+                                <p>
+                                   This section provides a great collection of Android Multiple Choice Questions (MCQs) on a single page along with their correct answers and explanation. If you select the right option, it turns green; else red.
+                                </p>
+                            <li>
+                                <h3>Android Mock Test</h3>
+                                <p>
+                                   This section provides various mock tests that you can download at your local machine and solve offline. Every mock test is supplied with a mock test key to let you verify the final score and grade yourself.
+                                </p>
+                            </ol>
+
+                            <p>Android is an open source and Linux-based operating system for mobile devices such as smartphones and tablet computers. Android was developed by the Open Handset Alliance, led by Google, and other companies. This tutorial will teach you basic Android programming and will also take you through some advance concepts related to Android application development.</p><br><br><br><br>
+                        
+
+                    </article>
+                </section>
+
+                <section class="main-section" id="Reference">
+                    <header>Reference</header>
+                    <article>
+                        <li><a href="https://www.tutorialspoint.com/android/">Android toturials</a>
+                    </article>
+                </section>
+            </main>
+        </div>
+    </div>
+</div>
+</body>
+</html>

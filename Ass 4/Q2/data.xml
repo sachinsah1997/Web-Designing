@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dataset>
+	<data>
+		<keyword>firebase</keyword>
+		<description>
+      Firebase is a platform developed by Google for creating mobile and web applications. It was originally an independent company founded in 2011. In 2014, Google acquired the platform and it is now their flagship offering for app development. Wikipedia 
+      </description>
+	</data>
+	<data>
+		<keyword>xml</keyword>
+		<description>
+      Extensible Markupa Language is a markup language that defines a set of rules for encoding documents in a format that is both human-readable and machine-readable.    
+    </description>
+	</data>
+	<data>
+		<keyword>android</keyword>
+		<description>
+      Android is a mobile operating system based on a modified version of the Linux kernel and other open source software, designed primarily for touchscreen mobile devices such as smartphones and tablets.   
+    
+    </description>
+	</data>
+	<data>
+		<keyword>javascript</keyword>
+		<description>
+      JavaScript, often abbreviated as JS, is a programming language that conforms to the ECMAScript specification.   
+
+</description>
+	</data>
+	<data>
+		<keyword>html</keyword>
+		<description>
+      The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser. 
+      </description>
+	</data>
+</dataset>

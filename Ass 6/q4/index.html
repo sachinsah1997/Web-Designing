@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <title>Extract and Read XML Data Using jQuery and Ajax</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+        <script src="read.js"></script>
+        <style>
+            #students {   
+                font:12px Arial;
+                width:500px;
+                text-align:center;
+                overflow:hidden;
+            }
+            #students div  {
+                width:auto;
+                text-align:left;
+                margin:1px;
+                padding:2px 5px;
+                letter-spacing:1px;
+            }
+
+            button{
+                padding:10px;
+                border-radius:5px;
+                font:14px Oswald;
+                font-weight: bold;
+                color:#FFF;
+                background: #000000;
+                text-transform:uppercase;
+                border:1px solid #000;
+                opacity:0.7;
+            }
+
+        
+        button:hover{
+            opacity:1;
+            cursor:pointer;
+        }
+        </style>
+    </head>
+    
+    <body>
+        <center>
+        <p>Click below to get the data</p>
+    
+        <button type="button" name="d" id="get_data_button">
+        <div id="students"></div>
+        </center>
+    </body>
+    </html>

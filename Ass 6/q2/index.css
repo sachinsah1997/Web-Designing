@@ -1,0 +1,58 @@
+
+      #container {
+        display: block;
+      }
+
+      #toggles {
+        float: left;
+        align-items: center;
+        width: 100%;
+        margin-top: 100px;
+      }
+
+      .box {
+        width: 60px;
+        height: 100px;
+        float: left;
+      }
+
+      .outlined {
+        border: 1px solid;
+        border-color: black;
+      }
+
+      .round-edge {
+        border-radius: 25px;
+      }
+
+      table{
+          text-align: center;
+          padding: 2px;
+      }
+
+      div{
+          margin: 10px;
+      }
+
+      table  td{
+            padding: 10px;
+      }
+
+
+      button{
+        padding:10px;
+        border-radius:5px;
+        font:14px Oswald;
+        font-weight: bold;
+        color:#FFF;
+        background: #000000;
+        text-transform:uppercase;
+        border:1px solid #000;
+        opacity:0.7;
+      }
+
+        
+  button:hover{
+    opacity:1;
+    cursor:pointer;
+  }

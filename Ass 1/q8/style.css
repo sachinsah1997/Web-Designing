@@ -1,0 +1,33 @@
+/* Style for table */
+
+table{
+    width: 1200px;
+    margin: auto;
+    table-layout: fixed;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table, th, td{
+    border: 1px dotted rgb(0, 0, 179);
+    border-collapse: collapse;
+    padding: 10px;
+    font-size: 23px;
+}
+
+th{
+    background-color: silver;
+}
+
+
+/* cell background */
+
+.red{
+    background-color: lightcoral;
+}
+
+.white{
+    background-color: white;
+}

@@ -1,0 +1,85 @@
+
+{
+
+ "student" : [
+   {
+      "firstName": "Sachin",
+      "lastName": "Sah",
+      "rollNo": "20MCMB15",
+      "contactNo": "7802008521",
+      "email": "sachinsah@engineer.com",
+      "address": {
+         "City": "Surat",
+         "State": "Gujarat",
+         "Zip": "394230"
+      },
+      "department": "Information Technology"
+   },
+   {
+      "firstName": "Suvam",
+      "lastName": "Basak",
+      "rollNo": "20MCMB08",
+      "contactNo": "9685745214",
+      "email": "20MCMB08@uohyd.ac.in",
+      "address": {
+         "City": "Howrah",
+         "State": "Kolkota",
+         "Zip": "994230"
+      },
+      "department": "Information Technology"
+   },
+   {
+      "firstName": "Jitendra",
+      "lastName": "Gangwar",
+      "rollNo": "20MCMB04",
+      "contactNo": "9666875454",
+      "email": "20MCMB04@uohyd.ac.in",
+      "address": {
+         "City": "Meerat",
+         "State": "Uttar Pradesh",
+         "Zip": "694230"
+      },
+      "department": "Information Technology"
+   },
+   {
+      "firstName": "Aishwariya",
+      "lastName": "Kulshrestha",
+      "rollNo": "20MCMB12",
+      "contactNo": "9666874554",
+      "email": "20MCMB12@uohyd.ac.in",
+      "address": {
+         "City": "Lucknow",
+         "State": "Uttar Pradesh",
+         "Zip": "664230"
+      },
+      "department": "Information Technology"
+   },
+   {
+      "firstName": "Ramya",
+      "lastName": "Bhargavi",
+      "rollNo": "20MCMI04",
+      "contactNo": "9665575454",
+      "email": "20MCMI04@uohyd.ac.in",
+      "address": {
+         "City": "Hyderabad",
+         "State": "Telegana",
+         "Zip": "594230"
+      },
+      "department": "Artificial Intelligence"
+   },
+   {
+      "firstName": "Amit",
+      "lastName": "Kumar",
+      "rollNo": "20MCMB14",
+      "contactNo": "9666445454",
+      "email": "20MCMB14@uohyd.ac.in",
+      "address": {
+         "City": "Chandni Chowk",
+         "State": "Delhi",
+         "Zip": "194230"
+      },
+      "department": "Information Technology"
+   }
+]
+
+}

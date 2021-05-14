@@ -1,0 +1,51 @@
+/*  this class is used for myengine logo creation.
+	text style, size and color is set.
+	also background color is set. */
+.gradient-brand {
+
+	font-family:"Raleway",Helvetica,sans-serif;
+	font-size: 80px;
+	margin: 10px;
+	width: 380px;
+    color: #f3ec78;
+    background-color: red;
+   
+}
+
+/* float attribute is used for setting the image to right of the screen and set margin 5pixel */
+img{
+		float: right;
+		margin-left: 2px;
+}
+
+/* to add style h6 tag */ 
+h6{
+	font-family:"Raleway",Helvetica,sans-serif;
+	font-size: 20px;
+	margin: 10px;
+	font-weight: normal;
+	text-align: left;
+	color: white;
+	float: right;
+}
+
+/* used for setting search button style */ 
+.button{
+	background-color: #1a1aff;
+	padding: 8px;
+	color: white;
+	border-radius: 4px;
+}
+
+/* used for search edittext box styling */
+.input{
+	width: 50%;
+}
+
+/* used for div tag content styling */
+div{
+	margin-top: 250px;
+	bottom: 5px;
+	font-family:"Raleway",Helvetica,sans-serif;
+	color: white;
+}
